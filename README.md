@@ -19,6 +19,9 @@ This project was built using:
 - Html5
 - Css3
 
+### Live Demo
+- [click here](https://elated-hawking-3a7b66.netlify.app/)
+
 ## Getting Started
 
 To get the content of this project locally you need to run this command in your terminal:
