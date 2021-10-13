@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Situation-updates-on-COVID-19and--casesTracker
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Description
 
-In the project directory, you can run:
+> TA project based on A [RESTful API for Bible](https://github.com/marciovsena/abibliadigital/blob/master/DOCUMENTATION.md). Data can be filtered based on testaments, author, chapters, books etc.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project was built using:
+- React
+- Redux
+- Javascript
+- Html5
+- Css3
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get the content of this project locally you need to run this command in your terminal:
 
-### `npm run build`
+- git clone ```git@github.com:git@github.com:Kalunge/Metrics-webapp.git``` 
+- `cd Metrics-webapp.git`
+- `npm install`
+- then Use `npm start` to run the app in live server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Test
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For tracking linter errors locally you need to follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- After cloning the project you need to run this command
 
-### `npm run eject`
+  > `npm install`
+  > This command will download all the dependancies of the project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- For tracking the linter errors in HTML file run:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  > `npx hint .`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- For tracking the linter errors in CSS file run:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  > `npx stylelint "\*_/_.{css,scss}"`
 
-## Learn More
+- And For tracking the linter errors in JavaScript file run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  > `npx eslint .`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Use `npm run build` to run the app in live server
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##### 👤 **Kalunge**
 
-### Analyzing the Bundle Size
+- GitHub: [@kalunge](https://github.com/kalunge)
+- Twitter: [@kalunge](https://twitter.com/titus_muthomi)
+- LinkedIn: [kalunge](https://linkedin.com/in/titus_muthomi)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+##  Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to check the [issues page](https://github.com/andersonlebon/Situation-updates-on-COVID-19and--casesTracker/issues)
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Give a :star: if you like this project!
 
-### Deployment
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Much appreciation to the the Entire Microverse Fraternity.
+- original design provided by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- Api Provided by [abibliadigital](https://github.com/marciovsena/abibliadigital/blob/master/DOCUMENTATION.md)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
