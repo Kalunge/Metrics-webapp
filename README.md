@@ -4,7 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Description
 
-> TA project based on A [RESTful API for Bible](https://github.com/marciovsena/abibliadigital/blob/master/DOCUMENTATION.md). Data can be filtered based on testaments, author, chapters, books etc.
+> A project based on A [RESTful API for Bible](https://github.com/marciovsena/abibliadigital/blob/master/DOCUMENTATION.md). Data can be filtered based on testaments, author, chapters, books etc.
+
+![author](https://user-images.githubusercontent.com/50773868/137195306-5b55e3b6-fd50-4079-9fe1-5fa0dfdf6402.png)
+![chapter](https://user-images.githubusercontent.com/50773868/137195317-5ecbd397-e9f9-4a09-bfee-9b3ce71c6713.png)
 
 
 ## Built With
