@@ -51,6 +51,7 @@ body {
 
 .book-outline {
   border: solid 1px;
+  cursor: pointer;
 }
 
 .chapter {

@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact component={Books} />
-        <Route path="/detail" component={BookDetails} />
+        <Route path="/:abbv" component={BookDetails} />
       </Switch>
     </Router>
   );

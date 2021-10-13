@@ -1,16 +1,22 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { FaBible } from 'react-icons/fa';
-import { getBooks } from '../redux/books/books';
+import { authenticate, getBooks } from '../redux/books/books';
 // import bible from '../img/bible.jpg';
 import Book from './Book';
 
 const Books = () => {
   const { books } = useSelector((state) => state.books);
+  const { userInfo } = useSelector((state) => state.books);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getBooks());
+    if (!userInfo.token) {
+      dispatch(authenticate());
+    }
+    if (!books.length) {
+      dispatch(getBooks());
+    }
   }, [dispatch]);
 
   const oldtestament = books
