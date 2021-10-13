@@ -4,7 +4,7 @@ import { MdKeyboardVoice, MdSettings } from 'react-icons/md';
 import { IoIosArrowBack } from 'react-icons/io';
 import { useHistory } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({ metric }) => {
   const history = useHistory();
   const handleClick = () => {
     history.push('/');
@@ -14,7 +14,7 @@ const Header = () => {
       <button type="button" onClick={handleClick}>
         <IoIosArrowBack size={42} color={'pink'} />
       </button>
-      <h2>Old Testament </h2>
+      <h2>{metric} </h2>
       <MdKeyboardVoice size={42} color={'pink'} />
       <MdSettings size={42} color={'pink'} />
     </div>

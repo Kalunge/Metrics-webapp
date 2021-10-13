@@ -6,10 +6,9 @@ import { useHistory } from 'react-router-dom';
 // import reading from '../img/reading.jpg';
 
 const Book = ({ book }) => {
-  console.log(book);
   const history = useHistory();
-  const handleClick = (abbv) => {
-    history.push(`/${abbv}`);
+  const handleClick = (abbrev) => {
+    history.push(`/${abbrev}`);
   };
   return (
     <div
@@ -31,8 +30,10 @@ const Book = ({ book }) => {
 Book.propTypes = {
   book: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    abbrev: PropTypes.string.isRequired,
-    chapters: PropTypes.arrayOf(PropTypes.string).isRequired,
+    abbrev: PropTypes.shape({
+      en: PropTypes.string,
+    }),
+    chapters: PropTypes.number.isRequired,
   }).isRequired,
 };
 export default Book;
