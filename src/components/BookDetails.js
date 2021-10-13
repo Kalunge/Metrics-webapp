@@ -4,15 +4,11 @@ import PropTypes, { string } from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { getBookDetails, getChapterDetails } from '../redux/books/books';
 import Header from './Header';
-// import ChapterDetails from './ChapterDetails';
 
 const BookDetails = ({ match }) => {
-  console.log(match.params.abbrev);
   const { BookDetail } = useSelector((state) => state.books);
-  console.log(BookDetail);
 
   const { ChaptersDetails } = useSelector((state) => state.books);
-  console.log(ChaptersDetails, 'dbndsnb');
 
   const dispatch = useDispatch();
 
@@ -21,7 +17,6 @@ const BookDetails = ({ match }) => {
     dispatch(getChapterDetails(match.params.abbrev));
   }, [dispatch]);
 
-  console.log(BookDetail.name);
   return (
     <>
       <Header metric={BookDetail.name} />
