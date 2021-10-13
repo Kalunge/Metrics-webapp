@@ -33,7 +33,10 @@ const Books = () => {
         </div>
         <div className="col-5 mt-5 text">
           <h1 className="d-block">Holy bible </h1>
-          <p className="btn btn-dark">66 Books</p>
+          <p className="btn btn-dark">
+            {books.length}
+            Books
+          </p>
         </div>
         <h5 className="text mt-2">Books by Moses</h5>
         {oldtestament.map((book) => (

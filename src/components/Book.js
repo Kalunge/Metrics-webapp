@@ -21,7 +21,7 @@ const Book = ({ book }) => {
       <AiOutlineArrowRight className="fachevron" />
       <div className="book">
         <FaGlobeAfrica className="fa-icons" size={120} />
-        <h4 className="text">{book.name}</h4>
+        <h4 className="text">{`${book.name}: ${book.chapters}`}</h4>
       </div>
     </div>
   );
