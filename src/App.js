@@ -1,14 +1,19 @@
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Books from './components/Books';
 
 import Header from './components/Header';
+import BookDetails from './components/BookDetails';
 
 function App() {
   return (
-    <div className="App">
+    <Router className="App">
       <Header />
-      <Books />
-    </div>
+      <Switch>
+        <Route path="/" exact component={Books} />
+        <Route path="/detail" component={BookDetails} />
+      </Switch>
+    </Router>
   );
 }
 

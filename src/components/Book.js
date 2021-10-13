@@ -1,19 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import reading from '../img/reading.jpg';
+import { FaGlobeAfrica } from 'react-icons/fa';
+import { AiOutlineArrowRight } from 'react-icons/ai';
+// import reading from '../img/reading.jpg';
 
 const Book = ({ book }) => (
-  <div className="col-6">
-    <div>
-      <img className="image" src={reading} alt="reading" />
-      <div className="nehem">
-        <h1>{book.name}</h1>
-        <p>
-          {book.chapters}
-          {' '}
-          Chapters
-        </p>
-      </div>
+  <div className="col-6 book-outline">
+    <AiOutlineArrowRight className="fachevron" />
+    <div className="book">
+      <FaGlobeAfrica className="fa-icons" size={120} />
+      <h4 className="text">{book.name}</h4>
     </div>
   </div>
 );
