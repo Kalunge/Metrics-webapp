@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Metrix WebApp
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Description
 
-In the project directory, you can run:
+> A project based on A [RESTful API for Bible](https://github.com/marciovsena/abibliadigital/blob/master/DOCUMENTATION.md). Data can be filtered based on testaments, author, chapters, books etc.
 
-### `npm start`
+![author](https://user-images.githubusercontent.com/50773868/137195306-5b55e3b6-fd50-4079-9fe1-5fa0dfdf6402.png)
+![chapter](https://user-images.githubusercontent.com/50773868/137195317-5ecbd397-e9f9-4a09-bfee-9b3ce71c6713.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Built With
 
-### `npm test`
+This project was built using:
+- React
+- Redux
+- Javascript
+- Html5
+- Css3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Live Demo
+- [click here](https://elated-hawking-3a7b66.netlify.app/)
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get the content of this project locally you need to run this command in your terminal:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- git clone ```git@github.com:git@github.com:Kalunge/Metrics-webapp.git``` 
+- `cd Metrics-webapp.git`
+- `npm install`
+- then Use `npm start` to run the app in live server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Test
 
-### `npm run eject`
+For tracking linter errors locally you need to follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- After cloning the project you need to run this command
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  > `npm install`
+  > This command will download all the dependancies of the project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- For tracking the linter errors in HTML file run:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  > `npx hint .`
 
-## Learn More
+- For tracking the linter errors in CSS file run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  > `npx stylelint "\*_/_.{css,scss}"`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- And For tracking the linter errors in JavaScript file run:
 
-### Code Splitting
+  > `npx eslint .`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Use `npm run build` to run the app in live server
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##### 👤 **Kalunge**
 
-### Making a Progressive Web App
+- GitHub: [@kalunge](https://github.com/kalunge)
+- Twitter: [@kalunge](https://twitter.com/titus_muthomi)
+- LinkedIn: [kalunge](https://linkedin.com/in/titus_muthomi)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+##  Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to check the [issues page](https://github.com/andersonlebon/Situation-updates-on-COVID-19and--casesTracker/issues)
 
-### Deployment
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Give a :star: if you like this project!
 
-### `npm run build` fails to minify
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Much appreciation to the the Entire Microverse Fraternity.
+- original design provided by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- Api Provided by [abibliadigital](https://github.com/marciovsena/abibliadigital/blob/master/DOCUMENTATION.md)
+
+
