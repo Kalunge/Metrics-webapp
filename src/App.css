@@ -10,8 +10,9 @@ body {
 }
 
 * {
-   max-width: 100%;
+  max-width: 100%;
 }
+
 .fa-icon {
   display: flex;
   align-items: center;
