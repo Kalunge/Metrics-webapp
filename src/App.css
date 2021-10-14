@@ -2,12 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 80%;
 }
 
 body {
   background: #f76aa0;
 }
 
+* {
+   max-width: 100%;
+}
 .fa-icon {
   display: flex;
   align-items: center;
