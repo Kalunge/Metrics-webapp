@@ -2,7 +2,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { FaBible } from 'react-icons/fa';
 import { authenticate, getBooks } from '../redux/books/books';
-// import bible from '../img/bible.jpg';
 import Book from './Book';
 import Header from './Header';
 

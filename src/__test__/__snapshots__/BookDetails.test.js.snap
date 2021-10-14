@@ -29,9 +29,7 @@ Array [
         />
       </svg>
     </button>
-    <h2>
-       
-    </h2>
+    <h2 />
     <svg
       color="pink"
       fill="currentColor"

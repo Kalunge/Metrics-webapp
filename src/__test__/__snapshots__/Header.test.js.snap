@@ -28,9 +28,7 @@ exports[`renders   Header correctly 1`] = `
       />
     </svg>
   </button>
-  <h2>
-     
-  </h2>
+  <h2 />
   <svg
     color="pink"
     fill="currentColor"
