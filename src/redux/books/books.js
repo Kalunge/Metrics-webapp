@@ -93,4 +93,5 @@ const booksReducer = (state = initialState, action) => {
   }
 };
 
+export { GET_BOOKS, GET_BOOK_DETAILS, GET_CHAPTER };
 export default booksReducer;

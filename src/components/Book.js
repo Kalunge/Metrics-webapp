@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { FaGlobeAfrica } from 'react-icons/fa';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import { useHistory } from 'react-router-dom';
-// import reading from '../img/reading.jpg';
 
 const Book = ({ book }) => {
   const history = useHistory();
